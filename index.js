@@ -17,7 +17,9 @@ app.get('/Users' , async(req,res)=>{
    const User = await UserModel.find()
    res.json(User)
 })
-
+app.get('/',(req,res)=>{
+    res.send('hemmo')
+})
 
 app.listen(3000,()=>{
     console.log('create new server')
