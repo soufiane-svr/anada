@@ -18,7 +18,7 @@ app.get('/Users' , async(req,res)=>{
    res.json(User)
 })
 app.get('/',(req,res)=>{
-    res.send('helloo ئم')
+    res.send('helloo م')
 })
 
 app.listen(3000,()=>{
