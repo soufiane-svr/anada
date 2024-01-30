@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-app.use('express')
+app.use(express.json());
 
 const mongoose  = require('mongoose')
 mongoose.connect('mongodb+srv://soufiane:Sousou12@cluster0.5ij9nvy.mongodb.net/mernproject?retryWrites=true&w=majority')
