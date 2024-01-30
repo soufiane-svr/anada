@@ -7,7 +7,7 @@ mongoose.connect('mongodb+srv://soufiane:Sousou12@cluster0.5ij9nvy.mongodb.net/m
 .then(()=>{
     console.log('connected db')
 }).catch((error) => {
-    console.log('Error connecting to tkkhe database:', error);
+    console.log('Error connecting to tkkmsshe database:', error);
  });
 
 
